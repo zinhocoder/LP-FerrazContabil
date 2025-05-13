@@ -76,7 +76,7 @@ export default function Home() {
                 <p className="text-lg md:text-xl text-gray-600">
                   Liberte-se da burocracia fiscal e concentre-se no crescimento do seu negócio. Oferecemos soluções
                   contábeis estratégicas que vão além dos números, a partir de{" "}
-                  <span className="font-bold text-[#c6a44c]">R$100,00</span>.
+                  <span className="font-bold text-[#c6a44c]">R$130,00</span>.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <Button
@@ -371,7 +371,7 @@ export default function Home() {
               <div className="rounded-xl bg-gradient-to-r from-[#c6a44c]/20 to-[#c6a44c]/5 p-8 text-center max-w-2xl shadow-sm">
                 <h3 className="text-2xl font-bold text-gray-900">Investimento Acessível</h3>
                 <p className="mt-2 text-gray-600 mb-4">Serviços contábeis de excelência a partir de</p>
-                <p className="mt-1 text-4xl font-bold text-[#c6a44c] mb-6">R$100,00</p>
+                <p className="mt-1 text-4xl font-bold text-[#c6a44c] mb-6">R$130,00</p>
                 <Button
                   size="lg"
                   className="bg-[#c6a44c] hover:bg-[#b08e3a] shadow-md"
