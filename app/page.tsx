@@ -174,121 +174,6 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Nossos Números Section */}
-        <section id="numeros" className="py-16 bg-gray-50">
-          <div className="container px-4 md:px-6">
-            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
-              <Badge className="bg-[#c6a44c]/10 text-[#c6a44c] hover:bg-[#c6a44c]/20 px-3 py-1 text-sm">
-                Nossos Números
-              </Badge>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">
-                Transformamos Resultados
-              </h2>
-              <p className="max-w-[700px] text-gray-600 md:text-lg">
-                Veja como nossos clientes transformaram seus negócios após implementarem nossas soluções contábeis
-                estratégicas
-              </p>
-            </div>
-
-            <div className="grid md:grid-cols-2 gap-12 items-center">
-              {/* Antes - Declínio */}
-              <div className="bg-white p-8 rounded-xl shadow-md border-t-4 border-red-500">
-                <div className="flex items-center justify-center mb-6">
-                  <div className="h-20 w-20 rounded-full bg-red-100 flex items-center justify-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-10 w-10 text-red-500"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M19 14l-7 7m0 0l-7-7m7 7V3"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-2xl font-bold text-center mb-6">Antes da Ferraz Contabilidade</h3>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-red-500">+32%</p>
-                    <p className="text-gray-600">Carga Tributária Excessiva</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-red-500">68%</p>
-                    <p className="text-gray-600">Empresas com Multas Fiscais</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-red-500">45%</p>
-                    <p className="text-gray-600">Tempo Gasto com Burocracia</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-red-500">-27%</p>
-                    <p className="text-gray-600">Queda na Lucratividade</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Depois - Crescimento */}
-              <div className="bg-white p-8 rounded-xl shadow-md border-t-4 border-green-500">
-                <div className="flex items-center justify-center mb-6">
-                  <div className="h-20 w-20 rounded-full bg-green-100 flex items-center justify-center">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-10 w-10 text-green-500"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      stroke="currentColor"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        strokeWidth={2}
-                        d="M5 10l7-7m0 0l7 7m-7-7v18"
-                      />
-                    </svg>
-                  </div>
-                </div>
-                <h3 className="text-2xl font-bold text-center mb-6">Com a Ferraz Contabilidade</h3>
-                <div className="grid grid-cols-2 gap-6">
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-green-500">-22%</p>
-                    <p className="text-gray-600">Redução na Carga Tributária</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-green-500">98%</p>
-                    <p className="text-gray-600">Conformidade Fiscal Total</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-green-500">+75%</p>
-                    <p className="text-gray-600">Tempo Focado no Negócio</p>
-                  </div>
-                  <div className="text-center">
-                    <p className="text-3xl font-bold text-green-500">+35%</p>
-                    <p className="text-gray-600">Aumento na Lucratividade</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="mt-12 text-center">
-              <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
-                Estes números representam a média de resultados obtidos por nossos clientes após 12 meses de
-                implementação das nossas soluções contábeis estratégicas.
-              </p>
-              <Button
-                className="bg-[#c6a44c] hover:bg-[#b08e3a] shadow-md"
-                onClick={() => window.open("https://wa.me/5511997018328", "_blank")}
-              >
-                Quero Transformar Meu Negócio <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </div>
-          </div>
-        </section>
-
         {/* Services Section */}
         <section id="servicos" className="py-16 bg-white">
           <div className="container px-4 md:px-6">
@@ -468,72 +353,116 @@ export default function Home() {
           </div>
         </section>
 
-        {/* Testimonials Section */}
-        <section id="depoimentos" className="py-16 bg-gray-50">
+         {/* Nossos Números Section */}
+        <section id="numeros" className="py-16 bg-gray-50">
           <div className="container px-4 md:px-6">
             <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
               <Badge className="bg-[#c6a44c]/10 text-[#c6a44c] hover:bg-[#c6a44c]/20 px-3 py-1 text-sm">
-                Depoimentos
+                Nossos Números
               </Badge>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">
-                O Que Nossos Clientes Dizem
+                Transformamos Resultados
               </h2>
               <p className="max-w-[700px] text-gray-600 md:text-lg">
-                Conheça a experiência de quem já transformou sua gestão contábil com a Ferraz Contabilidade
+                Veja como nossos clientes transformaram seus negócios após implementarem nossas soluções contábeis
+                estratégicas
               </p>
             </div>
 
-            <div className="grid md:grid-cols-3 gap-8">
-              {[
-                {
-                  name: "Carlos Silva",
-                  company: "Silva & Associados",
-                  testimonial:
-                    "A Ferraz Contabilidade transformou completamente a gestão fiscal da minha empresa. Conseguimos reduzir nossa carga tributária em 22% no primeiro ano de parceria, mantendo total conformidade com a legislação.",
-                  rating: 5,
-                },
-                {
-                  name: "Mariana Costa",
-                  company: "MC Arquitetura",
-                  testimonial:
-                    "Como profissional autônoma, sempre tive dificuldades com a parte contábil. A equipe da Ferraz me orientou na melhor forma de tributação e agora posso focar no meu trabalho enquanto eles cuidam de toda a burocracia.",
-                  rating: 5,
-                },
-                {
-                  name: "Roberto Mendes",
-                  company: "RM Tecnologia",
-                  testimonial:
-                    "Atendimento excepcional e altamente profissional. Nos momentos mais críticos, como no fechamento fiscal, a equipe da Ferraz sempre esteve disponível para resolver nossas questões com agilidade e precisão.",
-                  rating: 5,
-                },
-              ].map((testimonial, index) => (
-                <div key={index} className="bg-white p-6 rounded-xl shadow-sm relative">
-                  <Quote className="h-10 w-10 text-[#c6a44c]/20 absolute top-4 right-4" />
-                  <div className="flex flex-col h-full">
-                    <div className="mb-4 flex">
-                      {Array(testimonial.rating)
-                        .fill(0)
-                        .map((_, i) => (
-                          <Star key={i} className="h-5 w-5 text-[#c6a44c] fill-[#c6a44c]" />
-                        ))}
-                    </div>
-                    <p className="text-gray-600 italic mb-6 flex-grow">"{testimonial.testimonial}"</p>
-                    <div className="mt-auto">
-                      <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
-                      <p className="text-sm text-gray-500">{testimonial.company}</p>
-                    </div>
+            <div className="grid md:grid-cols-2 gap-12 items-center">
+              {/* Antes - Declínio */}
+              <div className="bg-white p-8 rounded-xl shadow-md border-t-4 border-red-500">
+                <div className="flex items-center justify-center mb-6">
+                  <div className="h-20 w-20 rounded-full bg-red-100 flex items-center justify-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10 text-red-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M19 14l-7 7m0 0l-7-7m7 7V3"
+                      />
+                    </svg>
                   </div>
                 </div>
-              ))}
+                <h3 className="text-2xl font-bold text-center mb-6">Antes da Ferraz Contabilidade</h3>
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-red-500">+32%</p>
+                    <p className="text-gray-600">Carga Tributária Excessiva</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-red-500">68%</p>
+                    <p className="text-gray-600">Empresas com Multas Fiscais</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-red-500">45%</p>
+                    <p className="text-gray-600">Tempo Gasto com Burocracia</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-red-500">-27%</p>
+                    <p className="text-gray-600">Queda na Lucratividade</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Depois - Crescimento */}
+              <div className="bg-white p-8 rounded-xl shadow-md border-t-4 border-green-500">
+                <div className="flex items-center justify-center mb-6">
+                  <div className="h-20 w-20 rounded-full bg-green-100 flex items-center justify-center">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-10 w-10 text-green-500"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={2}
+                        d="M5 10l7-7m0 0l7 7m-7-7v18"
+                      />
+                    </svg>
+                  </div>
+                </div>
+                <h3 className="text-2xl font-bold text-center mb-6">Com a Ferraz Contabilidade</h3>
+                <div className="grid grid-cols-2 gap-6">
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-green-500">-22%</p>
+                    <p className="text-gray-600">Redução na Carga Tributária</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-green-500">98%</p>
+                    <p className="text-gray-600">Conformidade Fiscal Total</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-green-500">+75%</p>
+                    <p className="text-gray-600">Tempo Focado no Negócio</p>
+                  </div>
+                  <div className="text-center">
+                    <p className="text-3xl font-bold text-green-500">+35%</p>
+                    <p className="text-gray-600">Aumento na Lucratividade</p>
+                  </div>
+                </div>
+              </div>
             </div>
 
             <div className="mt-12 text-center">
+              <p className="text-lg text-gray-600 mb-6 max-w-2xl mx-auto">
+                Estes números representam a média de resultados obtidos por nossos clientes após 12 meses de
+                implementação das nossas soluções contábeis estratégicas.
+              </p>
               <Button
-                variant="outline"
-                className="border-[#c6a44c] text-[#c6a44c] hover:bg-[#c6a44c]/10"
+                className="bg-[#c6a44c] hover:bg-[#b08e3a] shadow-md"
                 onClick={() => window.open("https://wa.me/5511997018328", "_blank")}
               >
-                Ver Mais Depoimentos <ArrowRight className="ml-2 h-4 w-4" />
+                Quero Transformar Meu Negócio <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </div>
           </div>
@@ -701,6 +630,77 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </section>
+
+        {/* Testimonials Section */}
+        <section id="depoimentos" className="py-16 bg-gray-50">
+          <div className="container px-4 md:px-6">
+            <div className="flex flex-col items-center justify-center space-y-4 text-center mb-12">
+              <Badge className="bg-[#c6a44c]/10 text-[#c6a44c] hover:bg-[#c6a44c]/20 px-3 py-1 text-sm">
+                Depoimentos
+              </Badge>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-gray-900">
+                O Que Nossos Clientes Dizem
+              </h2>
+              <p className="max-w-[700px] text-gray-600 md:text-lg">
+                Conheça a experiência de quem já transformou sua gestão contábil com a Ferraz Contabilidade
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-3 gap-8">
+              {[
+                {
+                  name: "Carlos Silva",
+                  company: "Silva & Associados",
+                  testimonial:
+                    "A Ferraz Contabilidade transformou completamente a gestão fiscal da minha empresa. Conseguimos reduzir nossa carga tributária em 22% no primeiro ano de parceria, mantendo total conformidade com a legislação.",
+                  rating: 5,
+                },
+                {
+                  name: "Mariana Costa",
+                  company: "MC Arquitetura",
+                  testimonial:
+                    "Como profissional autônoma, sempre tive dificuldades com a parte contábil. A equipe da Ferraz me orientou na melhor forma de tributação e agora posso focar no meu trabalho enquanto eles cuidam de toda a burocracia.",
+                  rating: 5,
+                },
+                {
+                  name: "Roberto Mendes",
+                  company: "RM Tecnologia",
+                  testimonial:
+                    "Atendimento excepcional e altamente profissional. Nos momentos mais críticos, como no fechamento fiscal, a equipe da Ferraz sempre esteve disponível para resolver nossas questões com agilidade e precisão.",
+                  rating: 5,
+                },
+              ].map((testimonial, index) => (
+                <div key={index} className="bg-white p-6 rounded-xl shadow-sm relative">
+                  <Quote className="h-10 w-10 text-[#c6a44c]/20 absolute top-4 right-4" />
+                  <div className="flex flex-col h-full">
+                    <div className="mb-4 flex">
+                      {Array(testimonial.rating)
+                        .fill(0)
+                        .map((_, i) => (
+                          <Star key={i} className="h-5 w-5 text-[#c6a44c] fill-[#c6a44c]" />
+                        ))}
+                    </div>
+                    <p className="text-gray-600 italic mb-6 flex-grow">"{testimonial.testimonial}"</p>
+                    <div className="mt-auto">
+                      <h4 className="font-bold text-gray-900">{testimonial.name}</h4>
+                      <p className="text-sm text-gray-500">{testimonial.company}</p>
+                    </div>
+                  </div>
+                </div>
+              ))}
+            </div>
+
+            <div className="mt-12 text-center">
+              <Button
+                variant="outline"
+                className="border-[#c6a44c] text-[#c6a44c] hover:bg-[#c6a44c]/10"
+                onClick={() => window.open("https://wa.me/5511997018328", "_blank")}
+              >
+                Ver Mais Depoimentos <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
             </div>
           </div>
         </section>
